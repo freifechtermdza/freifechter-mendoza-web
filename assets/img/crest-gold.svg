@@ -1,0 +1,107 @@
+<svg viewBox="0 0 340 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="crestTitle">
+  <title id="crestTitle">Freifechter Mendoza — sello del club</title>
+
+  <defs>
+    <path id="arcLeft" d="M170,32 A118,118 0 0,0 52,150" fill="none"/>
+    <path id="arcRight" d="M170,32 A118,118 0 0,1 288,150" fill="none"/>
+  </defs>
+
+  <g fill="none" stroke="#d9b45c" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- borde de cuerda / laurel -->
+    <circle cx="170" cy="150" r="128" stroke-width="1.5" stroke-dasharray="1 7"/>
+    <circle cx="170" cy="150" r="116" stroke-width="1.4"/>
+
+    <!-- lemas en arco -->
+    <text font-size="9.5" letter-spacing="2.2" fill="#d9b45c" stroke="none" style="font-family:'Cinzel',serif">
+      <textPath href="#arcLeft" startOffset="3">IN SAPIENTIA INCIPIT VICTORIA</textPath>
+    </text>
+    <text font-size="9.5" letter-spacing="2.2" fill="#d9b45c" stroke="none" style="font-family:'Cinzel',serif">
+      <textPath href="#arcRight" startOffset="3">PERITIA IN GLADIO · GLORIA IN VITA</textPath>
+    </text>
+
+    <!-- laureles laterales inferiores -->
+    <g stroke-width="1.4">
+      <path d="M60,190 Q45,215 55,245 Q65,262 82,270"/>
+      <path d="M58,205 Q48,208 42,220"/>
+      <path d="M62,222 Q52,225 46,236"/>
+      <path d="M67,240 Q57,244 52,255"/>
+      <path d="M280,190 Q295,215 285,245 Q275,262 258,270"/>
+      <path d="M282,205 Q292,208 298,220"/>
+      <path d="M278,222 Q288,225 294,236"/>
+      <path d="M273,240 Q283,244 288,255"/>
+    </g>
+
+    <!-- espada vertical -->
+    <g stroke-width="2">
+      <line x1="170" y1="84" x2="170" y2="112"/>
+      <path d="M147,112 Q170,122 193,112"/>
+      <path d="M147,112 Q142,116 147,120"/>
+      <path d="M193,112 Q198,116 193,120"/>
+      <line x1="170" y1="112" x2="170" y2="246"/>
+      <path d="M159,234 L170,250 L181,234"/>
+    </g>
+    <circle cx="170" cy="79" r="6" fill="#d9b45c" stroke="none"/>
+
+    <!-- calavera con laurel -->
+    <g stroke-width="1.7">
+      <circle cx="170" cy="150" r="25"/>
+      <path d="M147,157 Q170,180 193,157 L188,177 Q170,188 152,177 Z"/>
+      <ellipse cx="160" cy="147" rx="5" ry="7"/>
+      <ellipse cx="180" cy="147" rx="5" ry="7"/>
+      <path d="M170,154 L165,164 L175,164 Z"/>
+      <line x1="157" y1="174" x2="183" y2="174"/>
+      <line x1="164" y1="174" x2="164" y2="181"/>
+      <line x1="170" y1="174" x2="170" y2="182"/>
+      <line x1="176" y1="174" x2="176" y2="181"/>
+    </g>
+    <!-- laurel abrazando la calavera -->
+    <g stroke-width="1.3">
+      <path d="M139,140 Q128,150 134,166 Q139,178 150,184"/>
+      <path d="M138,148 Q130,150 126,158"/>
+      <path d="M136,160 Q128,161 123,168"/>
+      <path d="M139,172 Q131,175 127,183"/>
+      <path d="M201,140 Q212,150 206,166 Q201,178 190,184"/>
+      <path d="M202,148 Q210,150 214,158"/>
+      <path d="M204,160 Q212,161 217,168"/>
+      <path d="M201,172 Q209,175 213,183"/>
+    </g>
+
+    <!-- libro abierto -->
+    <g stroke-width="1.7">
+      <path d="M131,197 Q152,189 170,197 L170,222 Q152,214 131,222 Z"/>
+      <path d="M209,197 Q188,189 170,197 L170,222 Q188,214 209,222 Z"/>
+      <line x1="139" y1="200" x2="163" y2="196"/>
+      <line x1="139" y1="209" x2="163" y2="205"/>
+      <line x1="139" y1="217" x2="163" y2="213"/>
+      <line x1="201" y1="200" x2="177" y2="196"/>
+      <line x1="201" y1="209" x2="177" y2="205"/>
+      <line x1="201" y1="217" x2="177" y2="213"/>
+    </g>
+
+    <!-- mariposa -->
+    <g stroke-width="1.1">
+      <path d="M199,124 Q209,111 218,120 Q213,130 199,129 Z"/>
+      <path d="M199,129 Q209,140 218,133 Q212,124 199,125 Z"/>
+      <line x1="198.5" y1="121" x2="198.5" y2="132"/>
+    </g>
+
+    <!-- espadas cruzadas -->
+    <g stroke-width="2.2">
+      <line x1="118" y1="298" x2="222" y2="342"/>
+      <line x1="222" y1="298" x2="118" y2="342"/>
+      <path d="M133,304 Q125,300 128,293"/>
+      <path d="M207,304 Q215,300 212,293"/>
+      <path d="M133,336 Q125,340 128,347"/>
+      <path d="M207,336 Q215,340 212,347"/>
+    </g>
+
+    <!-- cinta con el nombre -->
+    <path d="M50,360 L290,360 L306,372 L290,384 L50,384 L34,372 Z" stroke-width="1.7"/>
+    <path d="M34,372 L50,365 L50,379 Z" stroke-width="1.4"/>
+    <path d="M306,372 L290,365 L290,379 Z" stroke-width="1.4"/>
+  </g>
+
+  <text x="170" y="377" text-anchor="middle" fill="#d9b45c" stroke="none"
+        style="font-family:'Cinzel',serif" font-size="14" letter-spacing="1.3">FREIFECHTER MENDOZA</text>
+</svg>

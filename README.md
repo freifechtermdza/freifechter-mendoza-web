@@ -36,9 +36,10 @@ Sitio estático (HTML/CSS/JS puro, sin frameworks) listo para publicar en **GitH
 
 ## Identidad de marca
 
-- **Paleta**: negro/tinta (`#0e0d0b`), dorado (`#b8862f` / `#d9b45c`) y rojo lacre (`#7a1620`). Están definidos como variables CSS al inicio de `assets/css/style.css` (`:root`), así que podés ajustar los tonos en un solo lugar.
-- **Tipografías**: Cinzel (títulos, estilo capital romana) + EB Garamond (texto, una reviva de tipografías del siglo XVI) — ambas gratuitas vía Google Fonts.
-- **Emblema**: `assets/img/crest.svg` combina elementos de tus dos logos (la calavera con laurel, el libro abierto, la espada y los lemas en latín del logo minimalista, más el marco de cuerda/laureles y las espadas cruzadas del grabado heráldico). `crest-gold.svg` es la misma pieza con el color dorado ya aplicado, usada en el sitio. Es un primer boceto: si más adelante querés una versión más elaborada (por ejemplo con el grifo y el león del grabado original como tenantes), un ilustrador o una herramienta de generación de imágenes puede tomar este archivo como referencia de composición.
+- **Paleta**: negro/tinta (`#0e0d0b`), dorado (`#b8862f` / `#d9b45c`) y rojo lacre (`#7a1620`). Están definidos como variables CSS al inicio de `assets/css/style.css` (`:root`).
+- **Tipografías**: Cinzel (títulos) + EB Garamond (texto).
+- **Logo**: `assets/img/logo.png` es tu logo final (calavera con laurel, libro abierto, espada y lemas en latín), con el fondo removido para que se integre en cualquier color de fondo. Se usa en el header, el pie de página y en Nosotros.
+- **Ilustraciones de armas**: `espada-larga.png`, `dussack.png`, `daga.png`, `baston-pica.png`, `ringen.png` y `rapier.png` en `assets/img/` — se usan en la sección "¿Qué es HEMA?" del Inicio. Si querés usarlas también en `disciplinas.html` en vez de los íconos de línea dibujados, decime y las reemplazo ahí también.
 
 ## Estructura de archivos
 

@@ -251,7 +251,7 @@ footer a:hover{ color: var(--gold-light); }
   flex-wrap:wrap; margin-top: 2rem;
 }
 .footer-partners span{ font-size:.82rem; color: var(--text-soft); }
-.footer-partners img{ height:24px; width:auto; opacity:.8; transition: opacity .2s ease; filter: brightness(1.15); }
+.footer-partners img{ height:48px; width:auto; opacity:.9; transition: opacity .2s ease; filter: brightness(1.15); }
 .footer-partners a:hover img{ opacity:1; }
 
 .footer-bottom{

@@ -379,6 +379,12 @@ footer a:hover{ color: var(--gold-light); }
 }
 .myth-chip .x{ color: var(--wax-light); font-weight:bold; }
 
+.value-chip{
+  display:inline-flex; align-items:center; gap:.6em; border:1px solid var(--gold);
+  padding: .9em 1.5em; font-family: var(--display); font-size:.95rem; letter-spacing:.03em;
+  color: var(--gold-light); background: var(--ink-2);
+}
+
 /* ===== Badges de estado (disciplinas) ===== */
 .status{
   display:inline-block; font-family: var(--display); font-size:.66rem; letter-spacing:.12em;

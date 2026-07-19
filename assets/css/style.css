@@ -237,6 +237,17 @@ form.club-form{ display:grid; gap:1.2rem; max-width: 560px; }
 .field-row{ display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; }
 .form-note{ font-size:.85rem; color: var(--text-soft); }
 
+.form-success{ display:none; }
+.form-success:not(:empty){
+  display:block; background: var(--ink-2); border:1px solid var(--gold); color: var(--gold-light);
+  padding: 1em 1.2em; margin-bottom: 1.2rem; font-family: var(--display); font-size:.85rem; letter-spacing:.02em;
+}
+.form-error{ color: var(--wax-light); font-size:.8rem; margin-top:.35rem; }
+.form-error:empty{ display:none; }
+.form-error-general{ color: var(--wax-light); font-size:.85rem; margin-top:.5rem; }
+.form-error-general:empty{ display:none; }
+.field input[aria-invalid="true"], .field textarea[aria-invalid="true"]{ border-color: var(--wax-light); }
+
 /* ===== Footer ===== */
 footer{ border-top:1px solid var(--line); padding: 4rem 0 2.4rem; }
 .footer-grid{ display:grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; }

@@ -51,28 +51,37 @@
 <section>
   <div class="container split">
     <div class="reveal">
-      <form class="club-form" action="https://formspree.io/f/TU_ID_DE_FORMSPREE" method="POST">
+      <form id="contact-form" class="club-form" action="https://formspree.io/f/xjgnwaoz" method="POST">
+        <div data-fs-success class="form-success"></div>
         <div class="field">
           <label for="nombre">Nombre y apellido</label>
-          <input type="text" id="nombre" name="nombre" required>
+          <input type="text" id="nombre" name="nombre" data-fs-field required>
         </div>
         <div class="field-row">
           <div class="field">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" data-fs-field required>
+            <span data-fs-error="email" class="form-error"></span>
           </div>
           <div class="field">
             <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono" name="telefono">
+            <input type="tel" id="telefono" name="telefono" data-fs-field>
           </div>
         </div>
         <div class="field">
           <label for="mensaje">Mensaje</label>
-          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Contanos si ya entrenaste antes, y qué día te queda mejor (martes, jueves o viernes)."></textarea>
+          <textarea id="mensaje" name="mensaje" rows="5" data-fs-field placeholder="Contanos si ya entrenaste antes, y qué día te queda mejor (martes, jueves o viernes)."></textarea>
+          <span data-fs-error="mensaje" class="form-error"></span>
         </div>
-        <button type="submit" class="btn solid" style="width:fit-content;">Enviar</button>
-        <p class="form-note">Este formulario usa <a href="https://formspree.io" target="_blank" rel="noopener" style="color:var(--gold-light);">Formspree</a> para recibir los mensajes por email sin necesidad de un servidor propio — ideal para un sitio alojado en GitHub Pages. Reemplazá <code>TU_ID_DE_FORMSPREE</code> por el ID que te da Formspree al crear el formulario (gratis).</p>
+        <button type="submit" class="btn solid" data-fs-submit-btn style="width:fit-content;">Enviar</button>
+        <div data-fs-error class="form-error-general"></div>
+        <p class="form-note">Los mensajes llegan directo a nuestro email a través de <a href="https://formspree.io" target="_blank" rel="noopener" style="color:var(--gold-light);">Formspree</a>, sin necesidad de un servidor propio.</p>
       </form>
+      <script>
+        window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+        formspree('initForm', { formElement: '#contact-form', formId: 'xjgnwaoz' });
+      </script>
+      <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
     </div>
 
     <div class="reveal">

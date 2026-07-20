@@ -3,9 +3,21 @@ document.addEventListener('DOMContentLoaded', () => {
   const toggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('.main-nav');
 
+  const stickyCta = document.querySelector('.sticky-cta');
+  const hero = document.querySelector('.hero-carousel');
+
   const onScroll = () => {
     if (window.scrollY > 40) header.classList.add('solid');
     else header.classList.remove('solid');
+
+    if (stickyCta) {
+      if (hero) {
+        const heroBottom = hero.getBoundingClientRect().bottom;
+        stickyCta.classList.toggle('show', heroBottom < 80);
+      } else {
+        stickyCta.classList.add('show');
+      }
+    }
   };
   onScroll();
   window.addEventListener('scroll', onScroll, { passive: true });

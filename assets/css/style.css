@@ -414,11 +414,15 @@ footer a:hover{ color: var(--gold-light); }
 
 /* Hero compacto en celular: que entre completo sin scrollear */
 @media (max-width: 680px){
-  .hero-carousel{ padding: 6.5rem 1.2rem 2rem; }
-  .hero-logo-big{ height: 130px; margin: 0 auto .9rem; }
-  .hero-carousel h1{ font-size: 1.7rem; line-height:1.15; margin-bottom: 1.3rem; }
-  .hero-carousel .btn{ padding: .9em 1.7em; font-size:.8rem; }
-  .hero-dots{ bottom: 1.1rem; }
+  .hero-carousel{ padding: 6rem 1.2rem 1.6rem; }
+  .hero-logo-big{ height: 190px; margin: 0 auto .8rem; }
+  .hero-carousel h1{ font-size: 1.5rem; line-height:1.15; margin-bottom: 1.1rem; }
+  .hero-carousel .btn{ padding: .85em 1.6em; font-size:.78rem; }
+  .hero-dots{ bottom: 1rem; }
+
+  /* Ocultar el CTA flotante mientras el hero (que ya tiene su propio botón) está a la vista */
+  .sticky-cta{ transform: translateY(120%); transition: transform .3s ease; }
+  .sticky-cta.show{ transform: translateY(0); }
 }
 
 

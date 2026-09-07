@@ -112,7 +112,6 @@ p{ margin:0 0 1em; color:var(--gray); }
 @media (max-width:780px){
   .hero-content{ flex-direction:column-reverse; text-align:center; }
   .hero-actions{ justify-content:center; }
-  .hero-bg{ background-image:url('../img/hero-photo-mobile.jpg') !important; background-position:center 15%; }
 }
 @media (prefers-reduced-motion:reduce){ .hero-content{ animation:none; } }
 

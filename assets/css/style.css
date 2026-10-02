@@ -191,6 +191,19 @@ p{ margin:0 0 1em; color:var(--gray); }
 .map-frame iframe{ width:100%; height:340px; border:0; display:block; }
 
 /* ===== Footer ===== */
+/* ===== Crédito fotógrafo ===== */
+.photo-credit{
+  font-family:var(--font-display); font-size:.68rem; letter-spacing:.06em; text-transform:uppercase;
+  color:var(--gray-dim); margin-top:.6rem;
+}
+.photo-credit a{ color:var(--gold-soft); text-decoration:none; }
+.photo-credit a:hover{ text-decoration:underline; }
+.hero-credit{
+  position:absolute; z-index:2; right:clamp(1rem,3vw,2rem); bottom:1rem; margin:0;
+  color:rgba(236,226,207,.75);
+}
+.hero-credit a{ color:rgba(217,180,92,.9); }
+
 footer{ border-top:1px solid var(--line); padding:3rem 0; }
 .footer-row{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:1rem; font-size:.85rem; color:var(--gray-dim); }
 .footer-row a{ color:var(--gray-dim); text-decoration:none; }
